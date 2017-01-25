@@ -3,3 +3,4 @@ MallardDuck can swim.
 MallardDuck can display his shape.
 RedheadDuck can cry with "quack quack".
 RedheadDuck can swim.
+RedheadDuck can display his shape.
