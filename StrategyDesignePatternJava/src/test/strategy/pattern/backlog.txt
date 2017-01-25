@@ -1,1 +1,3 @@
 MallardDuck can cry with "quack quack".
+MallardDuck can swim.
+MallardDuck can display his shape.

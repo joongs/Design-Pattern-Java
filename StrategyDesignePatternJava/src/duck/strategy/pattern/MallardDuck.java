@@ -10,4 +10,7 @@ public class MallardDuck {
 		return "can swim";
 	}
 
+	public String display() {
+		return "MallardDuck";
+	}
 }

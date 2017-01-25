@@ -31,5 +31,17 @@ public class TestMallardDuck {
 		//assert
 		assertEquals("can swim", result);
 	}
+	
+	@Test
+	public void shouldSeeWhenCallDisplay() {
+		//arrange
+		MallardDuck mDuck = new MallardDuck();
+		
+		//act
+		String result = mDuck.display();
+		
+		//assert
+		assertEquals("MallardDuck", result);
+	}
 
 }
