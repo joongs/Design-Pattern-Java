@@ -6,4 +6,8 @@ public class RedheadDuck {
 		return "Quack Quack";
 	}
 
+	public String swim() {
+		return "can swim";
+	}
+
 }

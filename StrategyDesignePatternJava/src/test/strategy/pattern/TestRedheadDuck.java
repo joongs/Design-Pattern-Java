@@ -19,4 +19,16 @@ public class TestRedheadDuck {
 		//assert
 		assertEquals("Quack Quack", result);
 	}
+	
+	@Test
+	public void shouldSwimWhenCallSwim() {
+		//arrange
+		RedheadDuck rDuck = new RedheadDuck();
+		
+		//act
+		String result = rDuck.swim();
+				
+		//assert
+		assertEquals("can swim", result);
+	}
 }
