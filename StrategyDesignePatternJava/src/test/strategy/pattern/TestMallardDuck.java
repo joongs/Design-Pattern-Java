@@ -4,6 +4,7 @@ import static org.junit.Assert.*;
 
 import org.junit.Test;
 
+import duck.strategy.pattern.Duck;
 import duck.strategy.pattern.MallardDuck;
 
 public class TestMallardDuck {
@@ -11,7 +12,7 @@ public class TestMallardDuck {
 	@Test
 	public void shouldQuackWhenCallQuack() {
 		//arrange
-		MallardDuck mDuck = new MallardDuck();
+		Duck mDuck = new MallardDuck();
 		
 		//act
 		String result = mDuck.quack();
@@ -23,7 +24,7 @@ public class TestMallardDuck {
 	@Test
 	public void shouldSwimWhenCallSwim() {
 		//arrange
-		MallardDuck mDuck = new MallardDuck();
+		Duck mDuck = new MallardDuck();
 		
 		//act
 		String result = mDuck.swim();
@@ -35,7 +36,7 @@ public class TestMallardDuck {
 	@Test
 	public void shouldSeeWhenCallDisplay() {
 		//arrange
-		MallardDuck mDuck = new MallardDuck();
+		Duck mDuck = new MallardDuck();
 		
 		//act
 		String result = mDuck.display();

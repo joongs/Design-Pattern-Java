@@ -1,14 +1,6 @@
 package duck.strategy.pattern;
 
-public class RedheadDuck {
-
-	public String quack() {
-		return "Quack Quack";
-	}
-
-	public String swim() {
-		return "can swim";
-	}
+public class RedheadDuck extends Duck{
 
 	public String display() {
 		return "RedheadDuck";
