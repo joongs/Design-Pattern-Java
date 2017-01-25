@@ -1,1 +1,1 @@
-MallardDuck은 꽥꽥 울 수 있다.
+MallardDuck can cry with "quack quack".

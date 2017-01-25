@@ -3,7 +3,11 @@ package duck.strategy.pattern;
 public class MallardDuck {
 
 	public String quack() {
-		return "²Ð²Ð";
+		return "Quack Quack";
+	}
+
+	public String swim() {
+		return "can swim";
 	}
 
 }

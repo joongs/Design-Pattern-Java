@@ -14,10 +14,22 @@ public class TestMallardDuck {
 		MallardDuck mDuck = new MallardDuck();
 		
 		//act
-		String expected = mDuck.quack();
+		String result = mDuck.quack();
 		
 		//assert
-		assertEquals("²Ð²Ð", expected);
+		assertEquals("Quack Quack", result);
+	}
+	
+	@Test
+	public void shouldSwimWhenCallSwim() {
+		//arrange
+		MallardDuck mDuck = new MallardDuck();
+		
+		//act
+		String result = mDuck.swim();
+		
+		//assert
+		assertEquals("can swim", result);
 	}
 
 }
